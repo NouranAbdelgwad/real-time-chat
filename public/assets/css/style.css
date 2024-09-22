@@ -1,0 +1,285 @@
+body {
+    overflow-y: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+
+.page-container {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.747);
+    max-height: 100vh;
+    padding: 10px;
+}
+
+.navbar-col {
+    height: 100vh;
+    width: 7%;
+    /* background-color: rgba(0, 0, 0, 0.336); */
+    /* border-radius: 20px; */
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+.nav-logo {
+    width: 70%;
+    margin-bottom: 30%;
+}
+
+.chat-search {
+    width: 80%;
+    display: flex;
+    border: transparent solid 1px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.search-place {
+    padding: 30px;
+    width: 40%;
+}
+
+.search-input {
+    border: none !important;
+    outline: none !important;
+}
+
+.search-input:focus {
+    border: none;
+    outline: none;
+}
+
+.search-form {
+    display: flex;
+    border: lightgrey solid 1px;
+    border-radius: 20px;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+.bi-search {
+    color: grey;
+}
+
+.bi-send {
+    color: grey;
+}
+
+.person-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.person-chat {
+    display: flex;
+    border: solid lightgrey 1px;
+    border-radius: 20px;
+    padding: 15px 10px 15px 0px;
+    margin: 10px 0px;
+    /* width: 250px; */
+    justify-content: space-between;
+    height: 100px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.person-chat:hover {
+    background-color: rgba(211, 211, 211, 0.39);
+}
+
+.msg-txt {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 90%;
+    color: grey;
+}
+
+.msg-no {
+    width: 20px;
+    height: 20px;
+    background-color: #3d9970;
+    border-radius: 50%;
+    /* text-align: center; */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chatting-place {
+    width: 80%;
+    /* background-color: white; */
+}
+
+.chat-bar {}
+
+.chat-bar svg {
+    color: lightgray;
+}
+
+.name-subtitle {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-msg {
+    display: flex;
+    align-items: end;
+    height: fit-content;
+}
+
+.form-msg img {
+    margin: 0px 10px;
+}
+
+.form-msg span {
+    width: 70%;
+    padding: 10px;
+    background-color: rgba(211, 211, 211, 0.39);
+    border-radius: 10px 10px 10px 0px;
+}
+
+.to-msg img {
+    margin: 0px 10px;
+}
+
+.to-msg {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.to-msg span {
+    width: 70%;
+    padding: 10px;
+    color: white;
+    background-color: #3d9970;
+    border-radius: 10px 10px 0px 10px;
+}
+
+.to-msg span p {
+    padding: 0px;
+    margin: 0px;
+}
+
+.form-msg span p {
+    padding: 0px;
+    margin: 0px;
+}
+
+.form-msg span .msg-time {
+    display: flex;
+    justify-content: end;
+    color: grey;
+}
+
+.msg-time {
+    display: flex;
+    justify-content: end;
+}
+
+.input-container input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.chat-msgs {
+    height: 70%;
+    overflow-y: scroll;
+}
+
+/* General scrollbar styles for all specified classes */
+.chat-msgs::-webkit-scrollbar{
+    width: 10px; /* Width of the scrollbar */
+    height: 10px; /* Height of the scrollbar */
+}
+
+/* Track */
+.chat-msgs::-webkit-scrollbar-track{
+    background: #f1f1f1; /* Background of the track */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Thumb */
+.chat-msgs::-webkit-scrollbar-thumb{
+    background: #88888879; /* Color of the scrollbar handle */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Handle on hover */
+.chat-msgs::-webkit-scrollbar-thumb:hoverhover {
+    background: #555555ab; /* Color on hover */
+}
+
+
+.person-msgs {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.input-container {
+    margin: 0px 30px;
+}
+
+.input-container svg:hover {
+    color: #3d9970;
+}
+.group-members {
+    /* width: 20%; */
+    background-color: white;
+    border-radius: 20px;
+    height: 50%;
+    margin: 20px 20px;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.photos {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.photos::-webkit-scrollbar {
+    width: 40px;
+    height: 10px;
+}
+
+/* Track */
+.photos::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 5px;
+
+}
+
+
+.photos::-webkit-scrollbar-thumb {
+    background: #88888879;
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+.photos::-webkit-scrollbar-thumb:hover {
+    background: #555555ab;
+}
+
+.photos img {
+    margin: 10px;
+    width: 100px;
+}
+
+.info-col{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}

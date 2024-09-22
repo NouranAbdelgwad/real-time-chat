@@ -1,0 +1,104 @@
+.page-container{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.747);
+    /* flex-direction: ; */
+}
+.navbar-col{
+    height: 100vh;
+    width: 10%;
+    background-color: rgba(0, 0, 0, 0.336);
+    border-radius: 20px;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+}
+.nav-logo{
+    width: 70%;
+    margin-bottom: 30%;
+}
+.info-col{
+    width: 20%;
+    background-color: purple;
+}
+.nav-item{
+    margin: 10px 0px;
+    color: #3d9970;
+}
+
+.nav-item:hover{
+    color: burlywood;
+}
+.chat-place{
+    display: flex;
+    justify-content: space-between;
+}
+.search-place{
+    padding: 20px;
+    width: 30%;
+    background-color: white;
+}
+.search-input{
+    border: none;
+    outline: none;
+}
+.search-input:focus{
+    border: none;
+    outline: none;
+}
+
+.search-form{
+    display: flex;
+    border: lightgrey solid 1px;
+    border-radius: 20px;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+.bi-search{
+    color: lightgrey;
+}
+.person-img{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.person-chat{
+    display: flex;
+    border: solid lightgrey 1px;
+    border-radius: 20px;
+    padding: 15px 10px 15px 0px;
+    margin: 10px 0px;
+    /* width: 250px; */
+    justify-content: space-between;
+    height: 100px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.person-chat:hover{
+    background-color: rgba(211, 211, 211, 0.39);
+}
+.msg-txt{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 90%;
+    color: grey;
+}
+.msg-no{
+    width: 20px;
+    height: 20px;
+    background-color: #3d9970;
+    border-radius: 50%;
+    /* text-align: center; */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .chat-place{
+    width: 50%;
+    background-color: blueviolet;
+} */
